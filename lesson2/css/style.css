@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+	overflow-x: clip;
+}
+
+h1 {
+	text-align: center;
+}
+
+.menu {
+	text-align: center;
+}
+
+p {
+	display: inline-block;
+	font-size: 30px;
+	margin: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
