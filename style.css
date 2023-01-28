@@ -1,0 +1,14 @@
+body{
+	background: url(back.jpg);
+}
+h1,
+p {
+	font-size: 60px;
+	text-align: center;
+	color: gray;	
+}
+a {
+	color: white;
+	text-align: center;
+}
+	
