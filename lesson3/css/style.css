@@ -1,2 +1,56 @@
 @import url("reset.css");
 
+h1,
+h2 {
+	color: red;
+}
+
+.nav1 .menu {
+	color: brown;
+}
+
+.text1 {
+	color: green;
+}
+
+div.osnova {
+	color: blue;
+}
+
+#history {
+	color: blueviolet;
+}
+
+.mod,
+.modification {
+	color: aquamarine;
+}
+
+.history__block > p {
+	color: blueviolet;
+}
+
+.history__block2 ~ p {
+	color: yellow;
+}
+
+.modern.list
+{
+	color: rgb(4, 245, 16);
+}
+
+.help__block p {
+	color:rgb(19, 233, 187);
+}
+
+.time__place * {
+	color: blue;
+}
+
+.price__block + p {
+	color: brown;
+}
+
+[class*="_container"] {
+	color: red;
+}
