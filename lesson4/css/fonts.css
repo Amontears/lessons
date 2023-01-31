@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Aboreto:regular&display=swap);
+
+@font-face {
+	font-family: 'Beer money';
+	src: url('../fonts/beermoney.woff2') format('woff2'), url('../fonts/beermoney.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MADE TheArtist Script';
+	src: url('../fonts/MADETheArtistScript.woff2') format('woff2'), url('../fonts/MADETheArtistScript.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
