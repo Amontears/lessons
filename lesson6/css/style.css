@@ -17,9 +17,6 @@ body {
 	max-width: 1440px;
 	margin: 0 auto 115px;
 	}
-.main__logo-item{
-	width: 100%;
-}	
 h1,
 h2 {
 	font-family: Poppins, sans-serif;
@@ -38,12 +35,11 @@ p {
 	margin: 0 auto 80px;
 }
 [class^="image"] {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto 80px;
 }
 .image_block-2 {
-	font-size: 0px;
+	display: flex;
+	justify-content: space-between;
 }
-.boat { 
-	margin-right: 30px;
-}
+
