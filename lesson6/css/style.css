@@ -3,8 +3,9 @@
 
 
 [class*="__container"] {
-	max-width: 1240px;
+	max-width: 1270px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 body {
 	font-family: Poppins, sans-serif;
@@ -13,18 +14,20 @@ body {
 	line-height: 1.78;
 	color: #6C757D;
 }
-.main__logo {
-	max-width: 1440px;
+.main__logo-item {
 	margin: 0 auto 115px;
-	}
-h1,
-h2 {
+	width: 100%;
+}
+.title {
 	font-family: Poppins, sans-serif;
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1.6;
 	color: #212529;
 	max-width: 605px;
+	
+}
+.title1 {
 	margin-bottom: 40px;
 }
 p {
@@ -35,11 +38,71 @@ p {
 	margin: 0 auto 80px;
 }
 [class^="image"] {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto 80px;
 }
-.image_block-2 {
-	display: flex;
-	justify-content: space-between;
+.image__block-2 {
+	font-size: 0px;
 }
+.item {
+	max-width: 100%;
+	height: auto;
+	}
+.first { 
+	margin-right: 30px;
+	}
 
+	/* page 2 */
+
+.page2-item {
+	margin: 0 auto 100px;
+	width: 100%;
+}
+.title2 {
+	margin-bottom: 100px;
+}
+.text-page2__block {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+.image__block-2 {
+	width: 100%;
+	margin: 0 auto 100px;
+	font-size: 0px;
+}
+.item {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	}
+.navigation {
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #212529;
+	color: azure;
+	border-radius: 15px;
+	border: 1px solid yellowgreen;
+	box-shadow:  10px 10px 10px 0 grey;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 #000;
+}
+footer {
+	min-height: 150px;
+	background-color: #212529;
+}
+footer > .container > div {
+	text-align: center;
+}
+.footer__link-item {
+	margin: 50px 30px;
+	display: inline-block;
+}

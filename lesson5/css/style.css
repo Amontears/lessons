@@ -13,13 +13,10 @@ body {
 	line-height: 1.78;
 	color: #6C757D;
 }
-.main__logo {
-	max-width: 1440px;
+.main__logo-item {
 	margin: 0 auto 115px;
-	}
-.main__logo-item{
 	width: 100%;
-}	
+	}
 h1,
 h2 {
 	font-family: Poppins, sans-serif;
@@ -41,9 +38,13 @@ p {
 	width: 100%;
 	margin: 0 auto 80px;
 }
-.image_block-2 {
+.image__block-2 {
 	font-size: 0px;
 }
+.oak {
+	max-width: 100%;
+	height: auto;
+	}
 .boat { 
 	margin-right: 30px;
 }
