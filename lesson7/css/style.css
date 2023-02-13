@@ -3,10 +3,11 @@
 
 
 .top {
-	background: url(../img/1.jpg) center/ cover no-repeat;
+	background: url(../img/1.jpg) center / cover no-repeat;
 }
 .top__container {
 	max-width: 1270px;
+	min-height: 600px;
 	margin: 0 auto;
 	padding: 0 15px;
 	font-family: Poppins, serif;
@@ -34,7 +35,4 @@ margin-bottom: 15px;
 	font-weight: 700;
 	color: #F8F9FA;
 	margin-bottom: 15px;
-}
-.top__text {
-	padding-bottom: 100px;
 }
