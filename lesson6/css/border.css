@@ -40,6 +40,17 @@ span {
 	border-radius: 50%;
 	box-shadow: 10px 0px 5px 5px yellow;
 }
+footer {
+	min-height: 150px;
+	background-color: #212529;
+}
+footer > .last__container > div {
+	text-align: center;
+}
+.footer__link-item {
+	margin: 50px 30px;
+	display: inline-block;
+}
 .button {
 	display: inline-block;
 	padding: 10px;
@@ -56,15 +67,4 @@ span {
 .button:hover {
 	top: 3px;
 	box-shadow: 0 2px 0 0 #000;
-}
-footer {
-	min-height: 150px;
-	background-color: #212529;
-}
-footer > .container > div {
-	text-align: center;
-}
-.footer__link-item {
-	margin: 50px 30px;
-	display: inline-block;
 }

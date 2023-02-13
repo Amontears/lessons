@@ -3,8 +3,10 @@
 
 
 .logo__top {
-	max-width: 100%;
 	margin: 0 auto 115px;
+}
+.main__logo-item {
+	width: 100%;
 }
 [class*="__container"] {
 	max-width: 1270px;
@@ -17,8 +19,6 @@ body {
 	font-size: 14px;
 	line-height: 1.78;
 	color: #6C757D;
-}
-.article__container {
 }
 .article__text-block {
 	max-width: 816px;
@@ -74,3 +74,28 @@ footer > .last__container > div {
 	top: 3px;
 	box-shadow: 0 2px 0 0 #000;
 }
+/* page2 */
+
+.logo__top-p2 {
+	margin: 0 auto 100px;
+}
+.main__logo-item-p2 {
+	width: 100%;
+}
+.article__text-block-p2 {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+.article__title-p2 {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	font-weight: 700;
+	max-width: 605px;
+	margin-bottom: 100px;
+}
+.item-p2 {
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+
