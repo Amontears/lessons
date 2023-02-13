@@ -2,6 +2,10 @@
 @import url(reset.css);
 
 
+.logo__top {
+	max-width: 100%;
+	margin: 0 auto 115px;
+}
 [class*="__container"] {
 	max-width: 1270px;
 	margin: 0 auto;
@@ -14,69 +18,44 @@ body {
 	line-height: 1.78;
 	color: #6C757D;
 }
-.main__logo-item {
-	margin: 0 auto 115px;
-	width: 100%;
+.article__container {
 }
-.title {
-	font-family: Poppins, sans-serif;
-	font-weight: 700;
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__title {
+	color: #212529;
 	font-size: 25px;
 	line-height: 1.6;
-	color: #212529;
-	max-width: 605px;
-	
-}
-.title1 {
+	font-weight: 700;
 	margin-bottom: 40px;
+	max-width: 605px;
 }
 p {
+	line-height: 1.78;
 	margin-bottom: 30px;
 }
-.text__block {
-	max-width: 816px;
-	margin: 0 auto 80px;
-}
-[class^="image"] {
-	width: 100%;
-	margin: 0 auto 80px;
-}
-.image__block-2 {
-	font-size: 0px;
-}
 .item {
 	max-width: 100%;
-	height: auto;
-	}
-.first { 
+	margin-bottom: 80px;
+}
+.image__block {
+	font-size: 0px;
+}
+.first {
 	margin-right: 30px;
-	}
-
-	/* page 2 */
-
-.page2-item {
-	margin: 0 auto 100px;
-	width: 100%;
 }
-.title2 {
-	margin-bottom: 100px;
+footer {
+	min-height: 150px;
+	background-color: #212529;
 }
-.text-page2__block {
-	max-width: 816px;
-	margin: 0 auto 100px;
-}
-.image__block-2 {
-	width: 100%;
-	margin: 0 auto 100px;
-	font-size: 0px;
-}
-.item {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
-	}
-.navigation {
+footer > .last__container > div {
 	text-align: center;
+}
+.footer__link-item {
+	margin: 50px 30px;
+	display: inline-block;
 }
 .button {
 	display: inline-block;
@@ -94,15 +73,4 @@ p {
 .button:hover {
 	top: 3px;
 	box-shadow: 0 2px 0 0 #000;
-}
-footer {
-	min-height: 150px;
-	background-color: #212529;
-}
-footer > .container > div {
-	text-align: center;
-}
-.footer__link-item {
-	margin: 50px 30px;
-	display: inline-block;
 }
