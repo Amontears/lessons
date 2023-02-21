@@ -100,7 +100,7 @@ footer {
 .list__container {
 	max-width: 1170px;
    margin: 0 auto;
-	padding: 150px 15px 150px;
+	padding: 150px 15px 90px;
 }
 .footer__title {
 	font-weight: 400;
