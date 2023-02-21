@@ -92,7 +92,7 @@ margin-bottom: 15px;
 footer {
 	background: linear-gradient(0deg, rgba(195,34,105,0.6222864145658263) 9%, rgba(253,251,45,1) 100%) ;
 	font-family: Inter, sans-serif;
-	Weight: 700;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.1;
 	color: #637381;
