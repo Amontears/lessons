@@ -1,0 +1,36 @@
+
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Mynerve:regular&display=swap);
+
+
+body {
+	font-family: Mynerve, serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.main__block {
+	text-align: center;
+	max-width: 1030px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+[class*="title"] {
+padding: 50px 0;	
+}
+.main__image-first img {
+	width: 100%;
+}
+.main__image-second img:not(:last-child) {
+	margin-bottom: 20px;
+}
+.first,
+.second {
+	max-width: 540px;
+	width: 100%;
+}
+.main__image-third {
+	background-color: yellowgreen;
+	border:5px solid;
+	padding: 50px;
+}
+
